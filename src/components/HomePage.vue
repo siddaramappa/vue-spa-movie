@@ -1,6 +1,12 @@
 <template>
-  <div class="hello">
-    HomePage
+  <div class="hello container mr-10">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h1> Vue Authentications Using Firebase</h1>
+          <router-link  tag="button" to="/register" type="button" class="btn btn-primary mr-2">Register</router-link>
+          <router-link tag="button" to="/login" type="button" class="btn btn-primary">Login</router-link>
+        </div>
+      </div>
   </div>
 </template>
 
@@ -15,18 +21,5 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
+
 </style>
